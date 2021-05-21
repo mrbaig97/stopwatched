@@ -1,0 +1,74 @@
+@font-face {
+    font-family:digital;
+    src: url(digital.ttf);
+}
+html{
+    height: 100px;
+    font-family:digital;
+}
+#head{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    border-bottom: 3px solid aqua;
+    font-weight: bold;
+}
+body{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:gray;
+}
+.container{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 5px;
+    background-color:black;
+    width: 750px;
+    height: 450px;
+}
+.screen{
+    margin: 0;
+    margin-left: 10px;
+    background-color: gray;
+    color:aqua;
+    font-size: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: default;
+    user-select: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+.screen span{
+    display: inline-block;
+    width: 185px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    margin: 10px -5px 0;
+}
+.buttons button{
+    flex: 1;
+    margin:0 5px;
+    border: none;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    color:aqua;
+    background-color:black;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid aqua;
+}
+
+.buttons button:hover{
+    color:aqua;
+    background-color:grey;
+}
